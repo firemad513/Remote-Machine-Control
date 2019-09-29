@@ -1,0 +1,23 @@
+#Target Server Configuration
+ftp_server_ip = "16.165.216.75"
+ftp_server_username = "hpmcqa"
+ftp_server_password = "hpmcqa"
+ftp_server_port = "21"
+ftp_install_path = "/HPMC/MC_Nightly_Build/master/24.09.19/install-server-windows-x64-3.30-20059.zip"
+target_server_tempFolder =
+target_server_ip = "16.187.191.831"
+target_server_username = "Administrator"
+target_server_password = "iso*help"
+target_server_port = "21"
+target_server_type = "windows"
+instrument_server_ip = "10.5.33.10"
+instrument_server_username = "qamcteam"
+instrument_server_password = "123456"
+instrument_server_port = "22"
+instrument_server_type = "mac"
+mac_instrument_server_Enabler = "/Do_Not_Delete/mac_instrument/Agent/MCEnabler/osx/"
+ZiptoolPath = "C:/Users/fengjian.CORPDOM/Desktop/ReplaceAgent/ReplaceAgent/ReplaceAgent/Resources/Tools/7z/7z1900-x64.exe"
+DownLoadBatchFile = "C:/Users/fengjian.CORPDOM\Desktop/ReplaceAgent/ReplaceAgent/ReplaceAgent/Resources/BatchFiles/Install_MC_Server.bat"
+AgentName = ['HP4M-Agent.ipa', 'HPMC-AgentLauncher.ipa', 'WebDriverAgentRunner-Runner.ipa', 'WebDriverAgentRunner-Runner_xcode9.ipa']
+RemoteAgentFolder = "C:/Program Files/UFT Mobile Server/server/Agent/"
+SigneAgentName = ['HP4M-Agent-Codesigned.ipa', 'HPMC-AgentLauncher-Codesigned.ipa', 'WebDriverAgentRunner-Runner-Codesigned.ipa', 'WebDriverAgentRunner-Runner_xcode9-Codesigned.ipa']

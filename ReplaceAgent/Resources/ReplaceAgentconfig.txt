@@ -1,0 +1,18 @@
+#Target Server configuration
+linux_server_ip = "10.5.35.251"
+linux_server_username = "root"
+linux_server_password = "W3lcome1"
+linux_server_port = "22"
+
+#SignServer configuration
+mac_server_ip = "10.5.33.10"
+mac_server_username = "qamcteam"
+mac_server_password = "123456"
+mac_server_port = "22"
+
+#Default Value please do not change
+linuxAgentName = ['HP4M-Agent.ipa', 'WebDriverAgentRunner-Runner.ipa', 'WebDriverAgentRunner-Runner_xcode9.ipa', 'HPMC-AgentLauncher.ipa']
+SignedAgentName = ['HP4M-Agent-Codesigned.ipa', 'HPMC-AgentLauncher-Codesigned.ipa', 'WebDriverAgentRunner-Runner_xcode9-Codesigned.ipa', 'WebDriverAgentRunner-Runner-Codesigned.ipa']
+RemoteAgentFolder = "/opt/UFTMobile/server/Agent"
+temp_folder_path = "/Users/qamcteam/Desktop/"
+mac_instrument_server = "/opt/mac_instrument_3.10.00004/Agent/MCEnabler/osx/"

@@ -1,0 +1,11 @@
+#These Param are by default
+MC_server_installfolder_linuxMac = "\opt\mc\"
+MC_connector_installfolder_linuxMac = "\opt\mc\"
+MC_connector_installfolder_windows = "C:\Program Files\Mobile Center Connector\"
+MC_server_installfolder_windows = "C:\Program Files\Mobile Center Server\"
+MC_Agent_name = ""
+MC_temp_folder_pathMac = "\Users\qamcteam\Desktop\"
+linuxAgentName = ['HP4M-Agent.ipa', 'HPMC-AgentLauncher.ipa', 'WebDriverAgentRunner-Runner.ipa', 'WebDriverAgentRunner-Runner_xcode9.ipa']
+SignedAgentName = ['HP4M-Agent-Codesigned.ipa', 'HPMC-AgentLauncher-Codesigned.ipa', 'WebDriverAgentRunner-Runner-Codesigned.ipa', 'WebDriverAgentRunner-Runner_xcode9-Codesigned.ipa']
+Temp_BaseLocalFolder= "/Users/qamcteam/Desktop/"
+ftp_MCNightlyBase_path = "/HPMC/MC_Nightly_Build/master/
